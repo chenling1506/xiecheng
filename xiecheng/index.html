@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="fonts/iconfont.css">
+	<link rel="stylesheet" href="css/swiper-3.3.1.min.css">
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<div class="swiper-container banner">
+				<div class="swiper-wrapper wrapper">
+					<div class="swiper-slide slide">
+						<img src="img/1.jpg" alt="">
+					</div>
+					<div class="swiper-slide slide">
+						<img src="img/1.jpg" alt="">
+					</div>
+					<div class="swiper-slide slide">
+						<img src="img/1.jpg" alt="">
+					</div>
+					<div class="swiper-slide slide">
+						<img src="img/1.jpg" alt="">
+					</div>
+				</div>
+				<div class="swiper-pagination pagination"></div>
+			</div>
+			<div class="sou">
+				<p><i class="iconfont">&#xe638;</i></p>
+				<div class="suo"><i class="iconfont">&#xe62f;</i><input type="text" placeholder="搜索旅行地/酒店/景点"></div>
+				<span><i class="iconfont">&#xe660;<b></b></i></span>
+			</div>
+		</header>
+		<div class="main">
+			<ul class="content">
+				<li>
+					<div class="con_1">
+						<dl>
+							<dt><i class="iconfont">&#xe653;</i></dt>
+							<dd>酒店</dd>
+						</dl>
+					</div>
+					<div class="con_2">
+						<span>特价酒店</span>
+						<span>国际酒店</span>
+						<span class="sale"><b>5折起</b>客栈·民宿</span>
+						<span>会场·聚会</span>
+					</div>
+				</li>
+				<li>
+					<div class="con_1">
+						<dl>
+							<dt><i class="iconfont">&#xe653;</i></dt>
+							<dd>酒店</dd>
+						</dl>
+					</div>
+					<div class="con_2">
+						<span>特价酒店</span>
+						<span class="sale"><b>校车</b>国际酒店</span>
+						<span>客栈·民宿</span>
+						<span>会场·聚会</span>
+					</div>
+				</li>
+				<li>
+					<div class="con_1">
+						<dl>
+							<dt><i class="iconfont">&#xe653;</i></dt>
+							<dd>酒店</dd>
+						</dl>
+					</div>
+					<div class="con_2">
+						<span>特价酒店</span>
+						<span>国际酒店</span>
+						<span class="sale"><b>5折起</b>客栈·民宿</span>
+						<span>会场·聚会</span>
+					</div>
+				</li>
+			</ul>
+			<div class="con">
+				<p>金融·理财</p>
+				<p>金融·理财</p>
+				<p>金融·理财</p>
+			</div>
+		</div>
+		<footer class="footer">
+			<ul>
+				<li><i class="iconfont">&#xe653;</i><a href="javascript:;">首页</a></li>
+				<li><i class="iconfont">&#xe653;</i><a href="javascript:;">首页</a></li>
+				<li><i class="iconfont">&#xe653;</i><a href="javascript:;">首页</a></li>
+				<li><i class="iconfont">&#xe653;</i><a href="javascript:;">首页</a></li>
+				<li><i class="iconfont">&#xe653;</i><a href="javascript:;">首页</a></li>
+			</ul>
+		</footer>
+	</div>
+	<script src="js/swiper-3.3.1.min.js"></script>
+	<script>
+		document.documentElement.style.fontSize=window.innerWidth/375*50+'px';
+		var myswiper=new Swiper('.swiper-container',{
+			autoplay:2000,
+			loop:true,
+			pagination:".swiper-pagination"
+		})
+	</script>
+</body>
+</html>

@@ -1,0 +1,196 @@
+@charset "UTF-8";
+@import url(reset.css);
+body, html, .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+* {
+  box-sizing: border-box; }
+
+body, html {
+  font-family: "微软雅黑"; }
+
+body {
+  font-size: 16px; }
+
+.container {
+  display: flex;
+  flex-direction: column; }
+
+.header {
+  width: 100%;
+  height: 2.76rem;
+  position: relative; }
+
+.banner {
+  width: 100%;
+  height: 2.76rem; }
+  .banner .slide {
+    width: 100%;
+    height: 100%; }
+    .banner .slide img {
+      width: 100%;
+      height: 100%; }
+
+.pagination span {
+  background: #fff; }
+
+.sou {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  height: .6rem;
+  z-index: 19; }
+  .sou p {
+    width: .6rem;
+    height: .6rem;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    line-height: .6rem; }
+    .sou p i {
+      font-size: .4rem; }
+  .sou .suo {
+    width: 70%;
+    height: .6rem;
+    border-radius: .6rem;
+    background: #fff;
+    line-height: .6rem; }
+    .sou .suo i {
+      fon-size: .3rem;
+      padding: 0 5px; }
+    .sou .suo input {
+      outline: none;
+      border: none; }
+  .sou span {
+    display: inline-block;
+    width: .6rem;
+    height: .6rem;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    line-height: .6rem; }
+    .sou span i {
+      font-size: .4rem;
+      position: relative; }
+      .sou span i b {
+        display: block;
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: #FA0B06;
+        position: absolute;
+        right: 0px;
+        top: -2px; }
+
+.main {
+  width: 100%;
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.content {
+  width: 98%;
+  margin-top: 6px; }
+  .content li {
+    width: 100%;
+    display: flex;
+    height: 2.26rem;
+    margin: 5px 0;
+    background: #FF5555; }
+  .content .con_1 {
+    width: 2.4rem;
+    height: 2.26rem;
+    border-right: 1px solid #fff; }
+    .content .con_1 dl {
+      width: 100%;
+      height: 100%;
+      text-align: center; }
+      .content .con_1 dl dt {
+        background: url(../img/2.jpg) no-repeat bottom;
+        background-size: 2.02rem .34rem;
+        height: 1.38rem;
+        line-height: 1.38rem; }
+        .content .con_1 dl dt i {
+          font-size: .68rem;
+          color: #fff;
+          padding: 5px 0; }
+      .content .con_1 dl dd {
+        font-size: .4rem;
+        color: #fff; }
+  .content .con_2 {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    height: 2.26rem; }
+    .content .con_2 span {
+      flex-basis: 50%;
+      height: 1.13rem;
+      text-align: center;
+      line-height: 1.2rem;
+      color: #fff;
+      font-size: .34rem;
+      border-bottom: 1px solid #fff;
+      border-right: 1px solid #fff; }
+  .content li:nth-child(2) {
+    background: #03A9F7; }
+    .content li:nth-child(2) dl dt {
+      background-image: none; }
+  .content li:nth-child(3) {
+    background: #7EB53D; }
+    .content li:nth-child(3) dl dt {
+      background-image: none; }
+
+.sale {
+  position: relative;
+  overflow: hidden; }
+  .sale b {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1.8rem;
+    height: .34rem;
+    text-align: center;
+    line-height: .34rem;
+    color: #A33E00;
+    background: #F6EC57;
+    transform: rotate(-45deg) translate(-22px, -16px);
+    font-size: .14rem; }
+
+.con {
+  width: 98%;
+  height: 1.12rem;
+  display: flex;
+  background: orange; }
+  .con p {
+    flex: 1;
+    text-align: center;
+    line-height: 1.12rem;
+    color: #fff;
+    border-right: 1px solid #fff; }
+
+.footer {
+  width: 100%;
+  height: .97rem;
+  border-top: 1px solid #ccc; }
+  .footer ul {
+    width: 100%;
+    height: .97rem;
+    display: flex; }
+    .footer ul li {
+      flex: 1;
+      text-align: center; }
+      .footer ul li i {
+        display: block;
+        font-size: .5rem;
+        padding-top: 3px; }
+      .footer ul li a {
+        font-size: .16rem; }
+
+/*# sourceMappingURL=style.css.map */
